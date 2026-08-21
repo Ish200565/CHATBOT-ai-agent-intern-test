@@ -37,7 +37,7 @@ knowledge-base/*.md → ingest.py (chunk + metadata) → retrieve.py (BM25 + pre
 - **Fix:** Swapped `MODEL` constant in `generate.py`.
 - **Regression test:** N/A (infra config, not app logic) — noted here for transparency per the assignment's "document what broke" requirement.
 
-## Known limitations (Piece 1, as of Day 1)
+## Known limitations (Piece 1)
 
 - No conflict detection yet between genuinely competing active sources (e.g., TrailPlus exception vs standard policy) — planned for Day 2/3.
 - No order lookup tool yet (Piece 2).
