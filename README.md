@@ -22,7 +22,6 @@ An AI support agent for Aster & Row (ecommerce) built for the AI Agent Intern ta
 ## Architecture
 knowledge-base/*.md → ingest.py (chunk + metadata) → retrieve.py (BM25 + precedence) → generate.py (LLM call with grounded context)
 
-
 ## Bug diary
 
 ### Bug 1: Internal/injection content misclassified as usable
